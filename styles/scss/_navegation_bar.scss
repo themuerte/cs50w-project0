@@ -1,27 +1,4 @@
-
-body{
-    background-color: white;
-}
-
-#curpo {
-    width: 1210px;
-    min-height: 930px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    margin-top: 30px;
-
-    background: green;
-    padding: 20px;
-    border: 1px solid #ddd;
-}
-
-#perfil{
-    width: 200px;
-    height: 250px;
-    border: 1px solid black;
-    float: none;
-    box-shadow: 22px 22px 22px black;
-}
+$color-shadow: #2B2F30;
 
 h1{
     text-align: left;
@@ -43,14 +20,14 @@ h1{
 .esquina-izquierda{
     display: block;
     border-left: 20px solid transparent;
-    border-top: 10px solid #2B2F30;
+    border-top: 10px solid $color-shadow;
     float: left;
 }
 
 .esquina-derecha{
     display: block;
     border-right: 20px solid transparent;
-    border-top: 10px solid #2B2F30;
+    border-top: 10px solid $color-shadow;
     float: right;
 }
 
@@ -58,7 +35,7 @@ h1{
     display: block;
     width: 1210px;
     height: 10px;
-    background-color: #2B2F30;
+    background-color: $color-shadow;
     float: left;
 
 }
