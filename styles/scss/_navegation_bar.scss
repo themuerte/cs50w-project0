@@ -1,27 +1,31 @@
 $color-shadow: #2B2F30;
+$display-nav-bar: block;
+
+
 
 
 header{
+
     .barra{
         width: 1250px;
         margin: 0 auto;
         
         .esquina-izquierda{
-            display: block;
+            display: $display-nav-bar;
             border-left: 20px solid transparent;
             border-top: 10px solid $color-shadow;
             float: left;
         }
         
         .esquina-derecha{
-            display: block;
+            display: $display-nav-bar;
             border-right: 20px solid transparent;
             border-top: 10px solid $color-shadow;
             float: right;
         }
         
         .relleno-barra{
-            display: block;
+            display: $display-nav-bar;
             width: 1210px;
             height: 10px;
             background-color: $color-shadow;
