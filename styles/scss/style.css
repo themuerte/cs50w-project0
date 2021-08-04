@@ -1,0 +1,38 @@
+header .barra {
+  width: 1250px;
+  margin: 0 auto;
+}
+
+header .barra .esquina-izquierda {
+  display: block;
+  border-left: 20px solid transparent;
+  border-top: 10px solid #2B2F30;
+  float: left;
+}
+
+header .barra .esquina-derecha {
+  display: block;
+  border-right: 20px solid transparent;
+  border-top: 10px solid #2B2F30;
+  float: right;
+}
+
+header .barra .relleno-barra {
+  display: block;
+  width: 1210px;
+  height: 10px;
+  background-color: #2B2F30;
+  float: left;
+}
+
+h1 {
+  text-align: left;
+  color: white;
+  width: 1250px;
+  background-color: #1b1e1f;
+  border: 1px solid #333333;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 22px 22px gray;
+          box-shadow: 0px 22px 22px gray;
+}
+/*# sourceMappingURL=style.css.map */
