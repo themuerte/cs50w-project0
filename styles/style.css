@@ -56,4 +56,9 @@ body {
   padding: 20px;
   border: 1px solid #ddd;
 }
+
+footer {
+  width: 95vw;
+  height: 5vh;
+}
 /*# sourceMappingURL=style.css.map */
