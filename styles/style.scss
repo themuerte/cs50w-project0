@@ -1,5 +1,6 @@
 
 $color-shadow: #2B2F30;
+$color-hyf: #1b1e1f;
 $display-nav-bar: block;
 
 *{
@@ -9,28 +10,33 @@ $display-nav-bar: block;
     
 }
 
- 
+body{
+    background-color: white;
+}
+
 header{
 
-    .barra{
+  
+
+    #barra{
         width: 1250px;
         margin: 0 auto;
         
-        .esquina-izquierda{
+        #esquina-izquierda{
             display: $display-nav-bar;
             border-left: 20px solid transparent;
             border-top: 10px solid $color-shadow;
             float: left;
         }
         
-        .esquina-derecha{
+        #esquina-derecha{
             display: $display-nav-bar;
             border-right: 20px solid transparent;
             border-top: 10px solid $color-shadow;
             float: right;
         }
         
-        .relleno-barra{
+        #relleno-barra{
             display: $display-nav-bar;
             width: 1210px;
             height: 10px;
@@ -43,29 +49,28 @@ header{
    
 }
 h1{
+    
     text-align: left;
     color: white;
 
     width: 1250px;
-    background-color: #1b1e1f;
+    background-color: $color-hyf;
     border:  1px solid #333333;
 
     margin: 0 auto;
     box-shadow: 0px 22px 22px gray;
 }
 
-body{
-    background-color: white;
-}
 
-#cuerpo {
+
+#contenido {
     width: 1210px;
     min-height: 930px;
     margin: 0 auto;
     margin-bottom: 30px;
     margin-top: 30px;
 
-    background-color: black;
+    background-color: gray;
     padding: 20px;
     border: 1px solid #ddd;
 } 
@@ -74,6 +79,16 @@ footer{
     width: 95vw;
     height: 5vh;
 
-   
+    background-color: $color-hyf;
+    border: 1px solid #333333;
+    
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 20px gray;
+    
 }
 

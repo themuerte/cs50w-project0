@@ -4,26 +4,30 @@
   font-family: sans-serif;
 }
 
-header .barra {
+body {
+  background-color: white;
+}
+
+header #barra {
   width: 1250px;
   margin: 0 auto;
 }
 
-header .barra .esquina-izquierda {
+header #barra #esquina-izquierda {
   display: block;
   border-left: 20px solid transparent;
   border-top: 10px solid #2B2F30;
   float: left;
 }
 
-header .barra .esquina-derecha {
+header #barra #esquina-derecha {
   display: block;
   border-right: 20px solid transparent;
   border-top: 10px solid #2B2F30;
   float: right;
 }
 
-header .barra .relleno-barra {
+header #barra #relleno-barra {
   display: block;
   width: 1210px;
   height: 10px;
@@ -42,17 +46,13 @@ h1 {
           box-shadow: 0px 22px 22px gray;
 }
 
-body {
-  background-color: white;
-}
-
-#cuerpo {
+#contenido {
   width: 1210px;
   min-height: 930px;
   margin: 0 auto;
   margin-bottom: 30px;
   margin-top: 30px;
-  background-color: black;
+  background-color: gray;
   padding: 20px;
   border: 1px solid #ddd;
 }
@@ -60,5 +60,14 @@ body {
 footer {
   width: 95vw;
   height: 5vh;
+  background-color: #1b1e1f;
+  border: 1px solid #333333;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -webkit-box-shadow: 0px 0px 20px gray;
+          box-shadow: 0px 0px 20px gray;
 }
 /*# sourceMappingURL=style.css.map */
