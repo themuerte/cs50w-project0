@@ -4,7 +4,7 @@ $display-nav-bar: block;
 
 %efecto-3d{
     display: block;
-    border-top: 10px solid $color-shadow;
+    border-top: 2vh solid $color-shadow;
 }
 
 *{
@@ -22,7 +22,7 @@ header{
 
         nav{
         width: 92vw;
-        height:6vh ;
+        height: 6vh;
         margin: 0 auto;
         background-color: $color-hyf;
         border: 1px solid #333333;
@@ -53,6 +53,7 @@ header{
             }
         }
     }
+    //efecto 3d pendiente de revision 
     #barra{
         width: 92vw;
         margin: 0 auto;
@@ -60,18 +61,18 @@ header{
 
         #esquina_izquierda{
             @extend %efecto-3d;
-            border-left: 20px solid transparent;
+            border-left: 3vw solid transparent;
             float: left;
         }
         #esquina_derecha{
             @extend %efecto-3d;
-            border-right: 20px solid transparent;
+            border-right: 3vw solid transparent;
             float: right;
         }
         #relleno{
             display: block;
-            width: 89.05vw;
-            height: 10px;
+            width: 86vw;
+            height: 2vh;
             background-color: $color-shadow;
             float: left;
         }

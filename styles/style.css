@@ -1,6 +1,6 @@
 header #barra #esquina_izquierda, header #barra #esquina_derecha {
   display: block;
-  border-top: 10px solid #2B2F30;
+  border-top: 2vh solid #2B2F30;
 }
 
 * {
@@ -57,19 +57,19 @@ header #barra {
 }
 
 header #barra #esquina_izquierda {
-  border-left: 20px solid transparent;
+  border-left: 3vw solid transparent;
   float: left;
 }
 
 header #barra #esquina_derecha {
-  border-right: 20px solid transparent;
+  border-right: 3vw solid transparent;
   float: right;
 }
 
 header #barra #relleno {
   display: block;
-  width: 89.05vw;
-  height: 10px;
+  width: 86vw;
+  height: 2vh;
   background-color: #2B2F30;
   float: left;
 }
