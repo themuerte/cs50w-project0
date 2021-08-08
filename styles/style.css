@@ -61,11 +61,6 @@ header #barra #esquina_izquierda {
   float: left;
 }
 
-header #barra #esquina_derecha {
-  border-right: 3vw solid transparent;
-  float: right;
-}
-
 header #barra #relleno {
   display: block;
   width: 86vw;
@@ -74,8 +69,13 @@ header #barra #relleno {
   float: left;
 }
 
+header #barra #esquina_derecha {
+  border-right: 3vw solid transparent;
+  float: right;
+}
+
 #contenido {
-  width: 1210px;
+  width: 85vw;
   min-height: 930px;
   margin: 0 auto;
   margin-bottom: 30px;
