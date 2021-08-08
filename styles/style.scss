@@ -64,11 +64,6 @@ header{
             border-left: 3vw solid transparent;
             float: left;
         }
-        #esquina_derecha{
-            @extend %efecto-3d;
-            border-right: 3vw solid transparent;
-            float: right;
-        }
         #relleno{
             display: block;
             width: 86vw;
@@ -76,11 +71,17 @@ header{
             background-color: $color-shadow;
             float: left;
         }
+        #esquina_derecha{
+            @extend %efecto-3d;
+            border-right: 3vw solid transparent;
+            float: right;
+        }
     }
 }
 
 #contenido {
-    width: 1210px;
+    //el minimo tiene que ser de ancho 403px x 630px de alto
+    width: 85vw;
     min-height: 930px;
     margin: 0 auto;
     margin-bottom: 30px;
