@@ -1,0 +1,110 @@
+$color-shadow: #2B2F30;
+$color-hyf: #1b1e1f;
+$display-nav-bar: block;
+
+%efecto-3d{
+    display: block;
+    border-top: 2vh solid $color-shadow;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    
+}
+
+body{
+    background-color: white;
+}
+
+header{
+
+        nav{
+        width: 92vw;
+        height: 6vh;
+        margin: 0 auto;
+        background-color: $color-hyf;
+        border: 1px solid #333333;
+        box-shadow: 0px 22px 22px gray;
+        font-size: 14px;
+
+        ul{
+            list-style: none;
+            text-decoration: none;
+
+            li{
+                line-height: 40px;
+                float: left;
+
+                a{
+                    display: block;
+                    padding-left: 10px;
+                    padding-right: 20px;
+                    color: white;
+
+                    &:hover{
+                        background: green;
+                        box-shadow: 0px 0px 5px black inset;
+                        color: white;
+                        transition: all 300ms;
+                    }
+                }
+            }
+        }
+    }
+    //efecto 3d pendiente de revision 
+    #barra{
+        width: 92vw;
+        margin: 0 auto;
+        margin-bottom: 40px;
+
+        #esquina_izquierda{
+            @extend %efecto-3d;
+            border-left: 3vw solid transparent;
+            float: left;
+        }
+        #esquina_derecha{
+            @extend %efecto-3d;
+            border-right: 3vw solid transparent;
+            float: right;
+        }
+        #relleno{
+            display: block;
+            width: 86vw;
+            height: 2vh;
+            background-color: $color-shadow;
+            float: left;
+        }
+    }
+}
+
+#contenido {
+    width: 1210px;
+    min-height: 930px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    background-color: gray;
+    padding: 20px;
+    border: 1px solid #ddd;
+} 
+
+footer{
+    width: 95vw;
+    height: 5vh;
+
+    background-color: $color-hyf;
+    border: 1px solid #333333;
+    
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 20px gray;
+    
+}
+
