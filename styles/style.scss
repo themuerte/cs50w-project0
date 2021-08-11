@@ -101,10 +101,18 @@ header{
     #perfil{
         display: block;
         float: left;
+        margin-bottom: 30px;
     }
 
-    #presentacion{
-        
+    .flex_container{
+        display: flex;
+        justify-content: space-around;
+        padding: 30px;
+        margin: 30px;
+
+        .content{
+
+        }
     }
 } 
 
