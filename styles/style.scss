@@ -20,7 +20,14 @@ body{
 
 header{
 
-        nav{
+    #logotipo{
+        width: 20vw;
+        height: 15vh;
+        display: block;
+        margin: 0 auto;
+    }
+
+    nav{
         width: 92vw;
         height: 42.08px;
         margin: 0 auto;
@@ -82,14 +89,23 @@ header{
 #contenido {
     //el minimo tiene que ser de ancho 403px x 630px de alto
     width: 85vw;
-    min-height: 930px;
+    height: 80vh;
     margin: 0 auto;
     margin-bottom: 30px;
     margin-top: 30px;
 
-    background-color: gray;
+    background-color: rgb(245, 237, 237);
     padding: 20px;
     border: 1px solid #ddd;
+
+    #perfil{
+        display: block;
+        float: left;
+    }
+
+    #presentacion{
+        
+    }
 } 
 
 footer{

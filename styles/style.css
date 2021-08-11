@@ -13,6 +13,13 @@ body {
   background-color: white;
 }
 
+header #logotipo {
+  width: 20vw;
+  height: 15vh;
+  display: block;
+  margin: 0 auto;
+}
+
 header nav {
   width: 92vw;
   height: 42.08px;
@@ -76,13 +83,18 @@ header #barra #esquina_derecha {
 
 #contenido {
   width: 85vw;
-  min-height: 930px;
+  height: 80vh;
   margin: 0 auto;
   margin-bottom: 30px;
   margin-top: 30px;
-  background-color: gray;
+  background-color: #f5eded;
   padding: 20px;
   border: 1px solid #ddd;
+}
+
+#contenido #perfil {
+  display: block;
+  float: left;
 }
 
 footer {
