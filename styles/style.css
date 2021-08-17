@@ -84,7 +84,9 @@ header #barra #esquina_derecha {
 
 #contenido {
   width: 85vw;
+  min-width: 417px;
   height: 80vh;
+  min-height: 581px;
   margin: 0 auto;
   margin-bottom: 30px;
   margin-top: 30px;
@@ -119,13 +121,18 @@ header #barra #esquina_derecha {
 }
 
 #contenido .flex_container .content {
-  width: 30vw;
+  width: 20vw;
   height: 20vh;
   text-align: left;
 }
 
 #contenido .flex_container .content #h3_tabla {
   text-align: center;
+}
+
+#contenido .flex_container .content #content_tabla {
+  width: 400px;
+  height: 400px;
 }
 
 #contenido .flex_container .content table {
@@ -138,9 +145,19 @@ header #barra #esquina_derecha {
   padding: 0;
 }
 
-@media screen and (max-width: 1198px) {
+@media screen and (min-width: 1400px) {
   #contenido {
-    font-size: 30px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 826px) {
+  #contenido .flex_container {
+    padding: 5px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
 }
 

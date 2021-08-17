@@ -88,10 +88,13 @@ header{
     }
 }
 
+//el minimo tiene que ser de ancho 417px x 794px de alto
 #contenido {
     
     width: 85vw;
+    min-width: 417px;
     height: 80vh;
+    min-height: 581px;
     margin: 0 auto;
     margin-bottom: 30px;
     margin-top: 30px;
@@ -120,13 +123,18 @@ header{
         padding: 30px;
         
         .content{
-            width: 30vw;
+            width: 20vw;
             height: 20vh;
             text-align: left;
             
 
             #h3_tabla{
                 text-align: center;
+            }
+
+            #content_tabla{
+                width: 400px;
+                height: 400px;
             }
 
             table{
@@ -141,11 +149,19 @@ header{
         }
     }
 
-    //el minimo tiene que ser de ancho 471px x 794px de alto
 
     //para agrandar la letra y la imagen 1197px x 680px
-    @media screen and (max-width: 1198px ){
-        font-size: 30px;
+    @media screen and (min-width: 1400px ){
+        font-size: 20px;
+    }
+
+    @media screen and (max-width: 826px) {
+       
+
+        .flex_container{
+            padding: 5px;
+            flex-flow: column nowrap;
+        }
     }
 } 
 
