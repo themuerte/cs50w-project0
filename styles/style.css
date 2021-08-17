@@ -11,6 +11,7 @@ header #barra #esquina_izquierda, header #barra #esquina_derecha {
 
 body {
   background-color: white;
+  font-size: 15px;
 }
 
 header #logotipo {
