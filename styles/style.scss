@@ -1,5 +1,6 @@
 $color-shadow: #2B2F30;
 $color-hyf: #1b1e1f;
+$color-bottom: white;
 $display-nav-bar: block;
 
 %efecto-3d{
@@ -16,13 +17,21 @@ $display-nav-bar: block;
 
 body{
     background-color: white;
+    font-size: 15px;
 }
 
 header{
 
-        nav{
+    #logotipo{
+        width: 202px;
+        height: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    nav{
         width: 92vw;
-        height: 6vh;
+        height: 42.08px;
         margin: 0 auto;
         background-color: $color-hyf;
         border: 1px solid #333333;
@@ -41,12 +50,12 @@ header{
                     display: block;
                     padding-left: 10px;
                     padding-right: 20px;
-                    color: white;
+                    color: $color-bottom;
 
                     &:hover{
-                        background: green;
+                        background: $color-bottom;
                         box-shadow: 0px 0px 5px black inset;
-                        color: white;
+                        color: black;
                         transition: all 300ms;
                     }
                 }
@@ -79,17 +88,81 @@ header{
     }
 }
 
+//el minimo tiene que ser de ancho 417px x 794px de alto
 #contenido {
-    //el minimo tiene que ser de ancho 403px x 630px de alto
+    
     width: 85vw;
-    min-height: 930px;
+    min-width: 417px;
+    height: 80vh;
+    min-height: 581px;
     margin: 0 auto;
     margin-bottom: 30px;
     margin-top: 30px;
 
-    background-color: gray;
+    background-color: rgb(245, 237, 237);
     padding: 20px;
     border: 1px solid #ddd;
+
+    font-size: 18px;
+
+
+    #perfil{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    #presentacion{
+        margin-bottom: 10px;
+    }
+
+    .flex_container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding: 30px;
+        
+        .content{
+            width: 20vw;
+            height: 20vh;
+            text-align: left;
+            
+
+            #h3_tabla{
+                text-align: center;
+            }
+
+            #content_tabla{
+                width: 400px;
+                height: 400px;
+            }
+
+            table{
+                text-align: left;
+                width: 100%;
+                border-collapse: collapse;
+
+                th, td{
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+
+    //para agrandar la letra y la imagen 1197px x 680px
+    @media screen and (min-width: 1400px ){
+        font-size: 20px;
+    }
+
+    @media screen and (max-width: 826px) {
+       
+
+        .flex_container{
+            padding: 5px;
+            flex-flow: column nowrap;
+        }
+    }
 } 
 
 footer{
