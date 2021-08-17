@@ -164,6 +164,7 @@ header #barra #esquina_derecha {
 footer {
   width: 95vw;
   height: 5vh;
+  min-height: 40px;
   background-color: #1b1e1f;
   border: 1px solid #333333;
   color: white;
