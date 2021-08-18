@@ -126,6 +126,11 @@ header #barra #esquina_derecha {
   text-align: left;
 }
 
+#contenido .flex_container .content .img_redes {
+  width: 10vw;
+  height: 10vh;
+}
+
 #contenido .flex_container .content #h3_tabla {
   text-align: center;
 }
