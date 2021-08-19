@@ -6,7 +6,7 @@ header #barra #esquina_izquierda, header #barra #esquina_derecha {
 * {
   margin: 0px;
   padding: 0px;
-  font-family: sans-serif;
+  font-family: sans-serif !important;
 }
 
 body {
@@ -124,6 +124,11 @@ header #barra #esquina_derecha {
   width: 20vw;
   height: 20vh;
   text-align: left;
+}
+
+#contenido .flex_container .content .img_redes {
+  width: 10vw;
+  height: 10vh;
 }
 
 #contenido .flex_container .content #h3_tabla {
