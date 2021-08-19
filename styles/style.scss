@@ -123,8 +123,8 @@ header{
         padding: 30px;
         
         .content{
-            width: 20vw;
-            height: 20vh;
+            width: 200px;
+            height: 90px;
             text-align: left;
             
             .img_redes{
@@ -146,28 +146,41 @@ header{
                 width: 100%;
                 border-collapse: collapse;
 
+                thead{
+                    th{
+                        text-align: center;
+                    }
+                }
+
                 th, td{
                     padding: 0;
+                    border: 1px solid black;
                 }
             }
         }
-    }
 
-
-    //para agrandar la letra y la imagen 1197px x 680px
-    @media screen and (min-width: 1400px ){
-        font-size: 20px;
     }
-
-    @media screen and (max-width: 826px) {
-       
-        .flex_container{
-            padding: 5px;
-            flex-flow: column nowrap;
-        }
-    }
+   
 } 
 
+@media screen and (min-width: 1400px ){
+    #contenido{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 826px) {
+    #contenido{
+        height: 900px;
+    }
+
+    .flex_container{
+        padding: 5px;
+        height: 500px;
+        flex-flow: row wrap;
+        justify-content: start;
+    }
+}
 footer{
     width: 95vw;
     height: 5vh;
