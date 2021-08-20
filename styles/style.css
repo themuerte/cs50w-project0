@@ -90,7 +90,7 @@ header #barra #esquina_derecha {
   margin: 0 auto;
   margin-bottom: 30px;
   margin-top: 30px;
-  background-color: #f5eded;
+  background-color: #f6f7f4;
   padding: 20px;
   border: 1px solid #ddd;
   font-size: 18px;
@@ -117,12 +117,12 @@ header #barra #esquina_derecha {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 30px;
+  padding: 10px;
 }
 
 #contenido .flex_container .content {
-  width: 200px;
-  height: 90px;
+  width: 300px;
+  height: 200px;
   text-align: left;
 }
 
@@ -133,6 +133,10 @@ header #barra #esquina_derecha {
 
 #contenido .flex_container .content #h3_tabla {
   text-align: center;
+}
+
+#contenido .flex_container .content .h2_portafolio {
+  text-align: start;
 }
 
 #contenido .flex_container .content #content_tabla {
@@ -163,11 +167,11 @@ header #barra #esquina_derecha {
 
 @media screen and (max-width: 826px) {
   #contenido {
-    height: 900px;
+    height: 950px;
   }
   .flex_container {
     padding: 5px;
-    height: 500px;
+    height: 400px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-flow: row wrap;
