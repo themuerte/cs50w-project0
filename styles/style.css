@@ -12,6 +12,8 @@ header #barra #esquina_izquierda, header #barra #esquina_derecha {
 body {
   background-color: white;
   font-size: 15px;
+  background-image: url("../img/32512.png");
+  background-attachment: fixed;
 }
 
 header #logotipo {
@@ -90,7 +92,7 @@ header #barra #esquina_derecha {
   margin: 0 auto;
   margin-bottom: 30px;
   margin-top: 30px;
-  background-color: #f6f7f4;
+  background-color: rgba(255, 255, 255, 0.4);
   padding: 20px;
   border: 1px solid #ddd;
   font-size: 18px;

@@ -18,6 +18,8 @@ $display-nav-bar: block;
 body{
     background-color: white;
     font-size: 15px;
+    background-image: url("../img/32512.png");
+    background-attachment: fixed;
 }
 
 header{
@@ -99,7 +101,7 @@ header{
     margin-bottom: 30px;
     margin-top: 30px;
 
-    background-color: rgb(246, 247, 244);
+    background-color: rgba(255, 255, 255, 0.4);
     padding: 20px;
     border: 1px solid #ddd;
 
@@ -126,6 +128,7 @@ header{
             width: 300px;
             height: 200px;
             text-align: left;
+            
             
             .img_redes{
                 width: 10vw;
